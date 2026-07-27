@@ -1,7 +1,18 @@
 aid: givecampus
 name: Givecampus
-description: Givecampus is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  GiveCampus is a digital-first fundraising and alumni-engagement platform built
+  for educational institutions - K-12 schools, colleges, universities, and their
+  affiliated foundations, alumni associations, and nonprofits. The platform
+  provides online giving pages, Giving Days, crowdfunding and peer-to-peer
+  (advocacy) fundraising, matching and challenge gifts, event and volunteer
+  management, donor management and advancement CRM tooling, payment processing,
+  and stewardship and engagement features that help advancement teams raise more
+  money at a lower cost. Founded in 2015 and backed by Y Combinator, GiveCampus
+  is used by thousands of schools and institutions across the United States and
+  internationally. This API Evangelist profile tracks GiveCampus as a company in
+  the network; the company operates a closed SaaS product and does not publish a
+  public developer API, so this record is identity- and infrastructure-focused.
 url: https://raw.githubusercontent.com/api-evangelist/givecampus/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +20,49 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.givecampus.com/favicon.ico
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Fundraising
+- Nonprofit
+- Education
+- Advancement
+- Alumni Engagement
+- Donor Management
+- Payments
+- Giving
+- CRM
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/givecampus-domain-security.yml
+- type: Website
+  url: https://www.givecampus.com
+- type: Support
+  url: https://support.givecampus.com/hc/en-us
+- type: StatusPage
+  url: https://status.givecampus.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
